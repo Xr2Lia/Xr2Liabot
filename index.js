@@ -15,9 +15,9 @@ const info = require("./lib/info.js");
 /////////////////
 const BotName = 'Xr2Lia Bot'; 
 const instagram = 'https://instagram.com/celixdhithera_'; 
-const telegram = 'https://t.me/reuzzz'; 
+const telegram = 'ga ada ya gaes'; 
 const kapanbotaktif = 'TERGANTUNG JARINGAN'; 
-const youtube = 'https://www.youtube.com/c/reuz_id';
+const youtube = 'doain secepatnya ada hehe 😚💖';
 //const grupch1 = 'belum ada grup'; 
 //const grupch2 = 'belum ada grup' ; 
 const
@@ -68,7 +68,7 @@ conn.on('user-presence-update', json => console.log(json.id + ' presence is => '
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@reuz.id`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@celixdhithera_`)
 })
 
 conn.on('message-new', async(m) =>
@@ -85,11 +85,11 @@ conn.on('message-new', async(m) =>
         const host = await aruga.getHostNumber() + '@c.us'
         // kondisi ketika seseorang diinvite/join group lewat link
         if (event.action === 'add' && event.who !== host) {
-            await aruga.sendTextWithMentions(event.chat, `Hello, Welcome to the group @${event.who.replace('@c.us', '')} \n\nHave fun with us✨`)
+            await aruga.sendTextWithMentions(event.chat, `Hello, selamat datang @${event.who.replace('@c.us', '')} \n\nHave fun with us. Semoga betah✨`)
         }
         // kondisi ketika seseorang dikick/keluar dari group
         if (event.action === 'remove' && event.who !== host) {
-            await aruga.sendTextWithMentions(event.chat, `Good bye @${event.who.replace('@c.us', '')}, We'll miss you✨`)
+            await aruga.sendTextWithMentions(event.chat, `Makasih udah mau join @${event.who.replace('@c.us', '')}, We'll miss you✨`)
         }
     })
 
@@ -438,7 +438,7 @@ const get = require('got')
     var meninggal = (body[0]['meninggal']);
     var dirawat = (body[0]['dirawat']);
     console.log(body[0]['name'])
-    conn.sendMessage(id,`😭🤒DATA WABAH COVID-19 TERBARU DI INDONESIA😔😊\n\n😔Positif ==> ${positif} \n😊Sembuh ==> ${sembuh} \n😭Meninggal ==> ${meninggal}\n🤒Dirawat ==> ${dirawat}`, MessageType.text);
+    conn.sendMessage(id,`🌿🤒DATA WABAH COVID-19 TERBARU DI INDONESIA😔🕊\n\n😔Positif ==> ${positif} \n😊Sembuh ==> ${sembuh} \n😭Meninggal ==> ${meninggal}\n🤒Dirawat ==> ${dirawat}`, MessageType.text);
 }
    if (text.includes("!quotes"))
    {
