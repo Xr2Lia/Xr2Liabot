@@ -1,7 +1,7 @@
 {
-  "name": "BetaBOT",
+  "name": "Xr2Lia Bot",
   "version": "1.0.0",
-  "description": "bot wa yang mudah untuk digunakan",
+  "description": "BA Cecil (Bot Asisten)  yang mudah digunakan",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -34,15 +34,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Xr2Lia/Xr2Lia"
+    "url": "git+https://github.com/Xr2Lia/Xr2Liabot"
   },
   "keywords": [
     "k"
   ],
-  "author": "Abdul Muttaqin",
+  "author": "Xr2Lia Cecilya",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Xr2Lia/Xr2Lia/issues"
+    "url": "https://github.com/Xr2Lia/Xr2Liabot/issues"
   },
-  "homepage": "https://github.com/Xr2Lia/Xr2Lia#readme"
+  "homepage": "https://github.com/Xr2Lia/Xr2Liabot#readme"
 }
