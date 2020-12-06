@@ -13,7 +13,7 @@ const tambahan = require("./lib/tambahan.js")
 const donasi = require("./lib/donasi.js");
 const info = require("./lib/info.js");
 /////////////////
-const BotName = 'Xr2Lia Bot'; 
+const BotName = 'Xr2Liabot'; 
 const instagram = 'https://instagram.com/celixdhithera_'; 
 const telegram = 'ga ada ya gaes'; 
 const kapanbotaktif = 'TERGANTUNG JARINGAN'; 
